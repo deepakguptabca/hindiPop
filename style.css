@@ -1,0 +1,23 @@
+#hindi-translator-popup {
+    position: absolute;
+    z-index: 999999;
+    background: white;
+    color: #222;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    font-size: 14px;
+}
+
+#hindi-translator-popup .original {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#hindi-translator-popup .translation {
+    font-size: 16px;
+    font-weight: 600;
+}

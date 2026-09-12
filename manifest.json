@@ -1,0 +1,19 @@
+{
+	"name":"hindExt",
+	"description":"Translate english text into hindi",
+	"version":"1.0.0",
+	"manifest_version":3,
+	"host_permissions":[
+		"https://translate.googleapis.com/*"
+	],
+	"content_scripts":[
+		{
+			"matches":["<all_urls>"],
+			"js":["content.js"],
+			"css":["style.css"]
+		}
+	],
+	"action":{
+		"default_icon":"images/icon.png"
+	}
+}
